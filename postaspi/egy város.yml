@@ -1,0 +1,16 @@
+info:
+  name: egy város
+  type: http
+  seq: 21
+
+http:
+  method: GET
+  url: http://localhost:8000/api/cities/121
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: true

@@ -1,0 +1,24 @@
+info:
+  name: Update county
+  type: http
+  seq: 13
+
+http:
+  method: PUT
+  url: http://127.0.0.1:8000/api/counties/20
+  body:
+    type: json
+    data: |-
+      {
+        "mnev": "megye 1",
+        "megyecimer": "csdvdsghfdhjf"
+      }
+  auth:
+    type: bearer
+    token: 3|rT2mGIrMOUlbM7B1SVGV4QdLqqnOh3mUykHQIO2258248246
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

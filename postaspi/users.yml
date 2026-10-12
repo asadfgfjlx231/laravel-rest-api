@@ -1,0 +1,17 @@
+info:
+  name: users
+  type: http
+  seq: 4
+
+http:
+  method: GET
+  url: http://localhost:8000/api/users
+  auth:
+    type: bearer
+    token: 3|rT2mGIrMOUlbM7B1SVGV4QdLqqnOh3mUykHQIO2258248246
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

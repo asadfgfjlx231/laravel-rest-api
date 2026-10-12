@@ -1,0 +1,25 @@
+info:
+  name: create city
+  type: http
+  seq: 17
+
+http:
+  method: POST
+  url: http://localhost:8000/api/cities
+  body:
+    type: json
+    data: |-
+      {
+        "vnev": "Taktaszada",
+        "megyeid": 4,
+        "nepesseg": 10000
+      }
+  auth:
+    type: bearer
+    token: 3|rT2mGIrMOUlbM7B1SVGV4QdLqqnOh3mUykHQIO2258248246
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
